@@ -1,197 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enter the Healing School</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="first-header">
-      <img src="Images/Group 1.png" alt="logo">
-      <span>Trending</span>
-      <P>The December 2024 Healing School Magazine is Out!</P>
-      <span>Trending</span>
-      </div>
-    </div>
-    <div class="second-header">
-      <img src="Images/httnlogo.png" alt="healing school magazine">
-      <menu>
-        <li><a href="#" id="home">Home</a></li>
-        <div class="dropdown">
-          <li><a href="#" id="magazine">Magazine</a></li>
-          <div class="dropdown-content">
-            <li><a href="#">Read Magazine</a></li>
-            <li><a href="#">Download Magazine</a></li>
-            <li><a href="#">Audio Podcast</a></li>
-            <li><a href="#">Translations</a></li>
-            <li><a href="#">Order print copies</a></li>
-            <li><a href="#">Books</a></li>
-            <li><a href="#">Inspiring Videos</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Conversations</a></li>
-            <li><a href="#">Suscribe</a></li>
-            <li><a href="#">About HTTN magazine</a></li>
-          </div>
-        </div>
-
-        <div class="dropdown">
-          <li><a href="#" id="magazine">Subscribe</a></li>
-          <div class="dropdown-content">
-            <li><a href="#">Starter pack</a></li>
-            <li><a href="#">Standard pack</a></li>
-            <li><a href="#">Classic pack</a></li>
-            <li><a href="#">Premium pack</a></li>
-            <li><a href="#">Gift Subscription</a></li>
-          </div>
-        </div>
-        
-        <div class="dropdown">
-          <li><a href="#" id="opportunities-fund">Opportunities</a></li>
-          <div class="dropdown-content">
-            <li><a href="#">Triumphant Entry Campaign</a></li>
-            <li><a href="#">SHIELD Initiative</a></li>
-            <li><a href="#">HELPER Initiative</a></li>
-            <li><a href="#">HTTN Partnership</a></li>
-          </div>
-        </div>
-
-
-        <div class="dropdown">
-          <li><a href="#" id="opportunities-fund">Fund Wallet</a></li>
-          <div class="dropdown-content">
-            <li><a href="#">Fund HTTN Wallet</a></li>
-          </div>
-        </div>
-
-        <div class="dropdown">
-          <li><a href="#">More</a></li>
-          <div class="dropdown-content">
-            <li><a href="#">Enter the Healing School</a></li>
-            <li><a href="#">Healing Streams TV</a></li>
-            <li><a href="#">Healing School Mobile app</a></li>
-            <li><a href="#">Prayer Cloud</a></li>
-            <li><a href="#">Contact us</a></li>
-          </div>
-        </div>
-      </menu>
-      <input type="text" name="translate" placeholder="Translate page">
-      <button id="sign-btn">SIGN IN</button>
-    </div>
-  </header>
-
-  <main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enter the Healing School</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-      <h1>Healing to the Nations Magazine Partnership</h1>
-      <p>Your Partnership can Change the World</p>
+      <div class="first-header">
+        <img src="Images/Group 1.png" alt="HTTN logo" />
+        <span class="tag">Trending</span>
+        <p>The December 2024 Healing School Magazine is Out!</p>
+        <span class="tag">Trending</span>
+      </div>
+
+      <!-- Main navigation -->
+      <div class="second-header">
+        <a href="/" class="logo">
+          <img src="Images/httnlogo.png" alt="Healing School Magazine Logo" />
+        </a>
+
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="#" id="home">Home</a></li>
+
+            <li class="dropdown">
+              <a
+                href="#"
+                id="magazine"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Magazine</a
+              >
+              <ul class="dropdown-content" aria-label="Magazine submenu">
+                <li><a href="#">Read Magazine</a></li>
+                <li><a href="#">Download Magazine</a></li>
+                <li><a href="#">Audio Podcast</a></li>
+                <li><a href="#">Translations</a></li>
+                <li><a href="#">Order Print Copies</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">Inspiring Videos</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Conversations</a></li>
+                <li><a href="#">Subscribe</a></li>
+                <li><a href="#">About HTTN Magazine</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" aria-haspopup="true" aria-expanded="false"
+                >Subscribe</a
+              >
+              <ul class="dropdown-content" aria-label="Subscribe submenu">
+                <li><a href="#">Starter Pack</a></li>
+                <li><a href="#">Standard Pack</a></li>
+                <li><a href="#">Classic Pack</a></li>
+                <li><a href="#">Premium Pack</a></li>
+                <li><a href="#">Gift Subscription</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" aria-haspopup="true" aria-expanded="false"
+                >Opportunities</a
+              >
+              <ul class="dropdown-content" aria-label="Opportunities submenu">
+                <li><a href="#">Triumphant Entry Campaign</a></li>
+                <li><a href="#">SHIELD Initiative</a></li>
+                <li><a href="#">HELPER Initiative</a></li>
+                <li><a href="#">HTTN Partnership</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" aria-haspopup="true" aria-expanded="false"
+                >Fund Wallet</a
+              >
+              <ul class="dropdown-content" aria-label="Fund Wallet submenu">
+                <li><a href="#">Fund HTTN Wallet</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" aria-haspopup="true" aria-expanded="false">More</a>
+              <ul class="dropdown-content" aria-label="More submenu">
+                <li><a href="#">Enter the Healing School</a></li>
+                <li><a href="#">Healing Streams TV</a></li>
+                <li><a href="#">Healing School Mobile App</a></li>
+                <li><a href="#">Prayer Cloud</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="actions">
+          <input
+            type="text"
+            name="translate"
+            placeholder="Translate page"
+            aria-label="Translate page"
+          />
+          <button id="sign-btn">Sign In</button>
+        </div>
+      </div>
+      <!-- Hamburger Button (visible on mobile) -->
+      <button
+        class="hamburger"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </header>
-    <div class="second-page">
-      <div class="form-section">
-        <p>Kindly fill in the details below to proceed</p>
-        <form action="">
-          <table>
-            <tr>
-              <td>Type amount</td>
-              <td>Select Currency</td>
-            </tr><br>
-            
-            <tr>
-              <td><input type="number" name="amount" placeholder="1"></td>
-              
-              <td><input type="currency" name="amount" placeholder="Espees" id="currency-cell"></td><br>
-            <tr>
 
-            <tr>              
-              <td colspan="2"><input type="text" name="FName" placeholder="Your Full Name" id="fullname"></td>
-            </tr>
-            
-            <tr>          
-              <td><input type="email" name="mail" placeholder="Enter Your Mail">
-              </td>
+    <!-- Main Content -->
+    <main>
+      <section class="intro">
+        <h1>Healing to the Nations Magazine Partnership</h1>
+        <p>Your Partnership can Change the World</p>
+      </section>
 
-              <td>
-                <input type="tel" name="number" placeholder="Enter Your Phone">
-              </td>
-            </tr><br>
-            
-            <tr>
-              <td>Purpose of giving</td>
-            </tr>
+      <section class="second-page">
+        <div class="form-section">
+          <p>Kindly fill in the details below to proceed</p>
+          <form action="">
+            <table>
+              <tr>
+                <td>Type amount</td>
+                <td>Select Currency</td>
+              </tr>
+              <tr>
+                <td><input type="number" name="amount" placeholder="1" /></td>
+                <td>
+                  <input
+                    type="text"
+                    name="currency"
+                    placeholder="Espees"
+                    id="currency-cell"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input
+                    type="text"
+                    name="FName"
+                    placeholder="Your Full Name"
+                    id="fullname"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="email"
+                    name="mail"
+                    placeholder="Enter Your Mail"
+                  />
+                </td>
+                <td>
+                  <input
+                    type="tel"
+                    name="number"
+                    placeholder="Enter Your Phone"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Purpose of giving</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input
+                    type="text"
+                    name="Purpose"
+                    placeholder="Be a H.E.R.O - Healing Everywhere Reaching and Organizing"
+                    id="purpose"
+                  />
+                </td>
+              </tr>
+            </table>
+            <button id="espees" type="submit">Pay with Espees</button>
+            <button id="card" type="submit">Pay with Card</button>
+            <button id="paypal" type="submit">Pay with Paypal</button>
+            <button id="bank" type="submit">Bank Transfer</button>
+          </form>
+        </div>
 
-            <tr>
-              <td colspan="2"><input type="text" name="Purpose" placeholder="Be a H.E.R.O - Healing Everywhere Reaching and Organizing" id="purpose"></td>
-            </tr><br>
-          </table>
-            <button id="espees">Pay with Espees</button><br>
-            <button id="card">Pay with Card</button><br>
-            <button id="paypal">Pay with Paypal</button><br>
-            <button id="bank">Bank Transfer</button>
-        </form>
-      </div>
-      <div class="video">
-        <h2>Your Partnership Counts</h2>
-        <p>Your partnership giving amplifies our efforts in saving the unsaved, healing the sick and infirm and restoring hope to the hopeless all over the world.</p>
-        <video width="100%" controls>
-          <source src="Images/video_2024-09-20_23-06-48.mp4" type="video/mp4">
-        </video>
-      </div>
-    </div>
-  </main>
+        <div class="video">
+          <h2>Your Partnership Counts</h2>
+          <p>
+            Your partnership giving amplifies our efforts in saving the unsaved,
+            healing the sick and infirm and restoring hope to the hopeless all
+            over the world.
+          </p>
+          <video width="100%" controls>
+            <source
+              src="Images/video_2024-09-20_23-06-48.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </section>
+    </main>
 
-  <footer>
-    <div class="last-section">
-      <div class="upper-section">
-        <img src="Images/httnlogo1.png" alt="kclogo" id="upper-logo">
+    <!-- Footer -->
+    <footer>
+      <div class="last-section">
+        <div class="upper-section">
+          <img
+            src="Images/httnlogo1.png"
+            alt="HTTN Logo White"
+            id="upper-logo"
+          />
 
-        <div class="layout">
-          <div class="first-layout">
-            <h2>About HTTN magazine</h2>
-            <p>The Healing to the Nations Magazine is a healing magazine that contains God's Word, faith-stirring stories of changed lives and divine instructions for divine healing and health. <br>
-            The Healing to the    Nations Magazine is published by the Healing School - the Healing Ministry of Pastor Chris Oyakhilome. All rights reserved. Reproduction in whole or in part without written permission is prohibited. ISSN 1597 – 0833.</p>
-          </div>
+          <div class="layout">
+            <section class="first-layout">
+              <h2>About HTTN magazine</h2>
+              <p>
+                The Healing to the Nations Magazine is a healing magazine that
+                contains God's Word, faith-stirring stories of changed lives and
+                divine instructions for divine healing and health. <br />
+                The Healing to the Nations Magazine is published by the Healing
+                School - the Healing Ministry of Pastor Chris Oyakhilome. All
+                rights reserved. Reproduction in whole or in part without
+                written permission is prohibited. ISSN 1597 – 0833.
+              </p>
+            </section>
 
-          <div class="second-layout">
-            <h2>Get in Touch</h2>
-            <ul>
-              <li>Phone +234 201 330 0167</li>
-              <li>Phone +27 79 967 5852</li>
-              <li>Phone +1 832 724 9390</li>
-              <li>Phone +44 (0) 333 188 0710</li>
-              <li>Phone +91 779 499 3762</li>
-            </ul>
-          </div>
+            <section class="second-layout">
+              <h2>Get in Touch</h2>
+              <ul>
+                <li>Phone +234 201 330 0167</li>
+                <li>Phone +27 79 967 5852</li>
+                <li>Phone +1 832 724 9390</li>
+                <li>Phone +44 (0) 333 188 0710</li>
+                <li>Phone +91 779 499 3762</li>
+              </ul>
+            </section>
 
-          <div class="third-layout">
-            <h2>Share your testimonies</h2>
-            <p>Testimonies: testimonies@httnmagazine.org</p>
-            <p>For enquiries: info@httnmagazine.org</p>
-            <img src="Images/kclogo_white.png" alt="">
-          </div>
+            <section class="third-layout">
+              <h2>Share your testimonies</h2>
+              <p>Testimonies: testimonies@httnmagazine.org</p>
+              <p>For enquiries: info@httnmagazine.org</p>
+              <img src="Images/kclogo_white.png" alt="KC Logo White" />
+            </section>
 
-          <div class="fourth-layout">
-            <h2>Experience More</h2>
-            <ul>
-              <li>Healing to the Nations</li>
-              <li>The Healing School</li>
-              <li>Healing Streams TV</li>
-              <li>Healing to the Nations app</li>
-              <li>My Prayer Cloud</li>
-              <li>Healing Centers</li>
-              <li>Global Youth FOrum</li>
-              <li>HELPER Initiative</li>
-            </ul>
+            <section class="fourth-layout">
+              <h2>Experience More</h2>
+              <ul>
+                <li>Healing to the Nations</li>
+                <li>The Healing School</li>
+                <li>Healing Streams TV</li>
+                <li>Healing to the Nations app</li>
+                <li>My Prayer Cloud</li>
+                <li>Healing Centers</li>
+                <li>Global Youth Forum</li>
+                <li>HELPER Initiative</li>
+              </ul>
+            </section>
           </div>
         </div>
-      </div>  
 
-      <div class="next-section">
-        <p>HTTN Magazine 2024, All right reserved.</p>
+        <div class="next-section">
+          <p>HTTN Magazine 2024, All rights reserved.</p>
+        </div>
       </div>
-
-    
-
-    </div>
-  </footer>
-</body>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
