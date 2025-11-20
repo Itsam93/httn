@@ -11,7 +11,7 @@ body {
 
 /* ========== TOP HEADER  ========== */
 .first-header {
-  background-color: black;
+  background-color: #0d6efd40;
   color: white;
   display: flex;
   align-items: center;
